@@ -27,5 +27,20 @@ int main() {
         bispo++;
     } while (bispo < 5);
 
+    int esquerda = 1;
+
+    printf("\n");
+
+    printf("CAVALO:\n");
+
+    while (esquerda--){
+
+        for (int baixo = 0; baixo < 2; baixo++)
+        {
+            printf("baixo\n");
+        }
+        printf("Esquerda\n");
+    }
+    
     return 0;
 }
